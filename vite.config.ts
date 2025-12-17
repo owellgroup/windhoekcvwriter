@@ -201,7 +201,7 @@ export default defineConfig(({ mode }) => {
 
             await transporter.sendMail({
               from: `"Windhoek CV Writers" <${env.SMTP_USER}>`,
-              to: "windhoekcvwriters@gmail.com",
+              to: "owellgraphics23@gmail.com",
               replyTo: data.email,
               subject: `New booking from ${data.fullName} – ${data.pricingTier}`,
               html,
